@@ -19,9 +19,9 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 
 //prepared JSON file
 //[{ ... }, { ... }]
-var dataFile = "./data/fandual.salary.json";
+var dataFile = "./data/your.data.json";
 var dataArray = jsonfile.readFileSync(dataFile);
-var tableName = 'Fandual';
+var tableName = 'YourTableName';
 
 //utility function to create a single put request
 function getData(index){
