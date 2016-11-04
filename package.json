@@ -1,0 +1,28 @@
+{
+  "name": "ddb-uploader",
+  "version": "0.0.1",
+  "description": "Upload JSON to DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timsvoice/ddb-uploader.git"
+  },
+  "keywords": [
+    "DynamoDB",
+    "upload",
+    "JSON"
+  ],
+  "author": "Timothy Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timsvoice/ddb-uploader/issues"
+  },
+  "homepage": "https://github.com/timsvoice/ddb-uploader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.15",
+    "jsonfile": "^2.4.0"
+  }
+}
