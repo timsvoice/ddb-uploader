@@ -13,4 +13,4 @@ Change the Table name in `index.db`
 Copy a json data file into the `./data/` directory  
 **make sure the region you are configing at the top of index,js is correct**  
 
-run script `npm run`  
+run script `npm start`  
